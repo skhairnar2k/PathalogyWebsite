@@ -1,0 +1,253 @@
+.labwrapper{
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+.labwrapper-orderdeats{
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding: -10px;
+}
+
+.labcontentheader{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 0;
+    background-color: rgb(240, 240, 240);
+    width: 14rem;
+}
+
+.labcontentheader-sero{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 0;
+    background-color: rgb(240, 240, 240);
+    width: 8rem;
+}
+
+.labcontentheader-hema{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 0;
+    background-color: rgb(240, 240, 240);
+    width: 10rem;
+}
+
+.labcontentheader-orderdeats{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 0;
+    background-color: rgb(240, 240, 240);
+    width: 11rem;
+}
+
+.labcontentheader-results{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 0;
+    background-color: rgb(240, 240, 240);
+    width: 7rem;
+}
+
+.labdiv{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.labdivcontent{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.p-10{
+    padding-left: 10px;
+}
+
+.labdiv-flex-block{
+    display: flex;
+}
+
+.tablelab{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin-top: 1px;
+    width: 100%;
+}
+
+tr.labheader{
+    background-color: rgb(10, 105, 194);
+    color: white;
+    font-weight: bold;
+  }
+
+
+  .mt-10{
+      margin-top: 10px;;
+  }
+
+  .mr-10{
+      margin-right: 10px;
+  }
+
+  .btn{
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.filter{
+    background-color: rgb(10, 105, 194);
+}
+
+.filter:hover{
+    background-color: rgb(64, 142, 216);
+    cursor: pointer;
+}
+
+tr.tbcontent.lab:hover{
+    background-color: rgb(64, 142, 216);
+    font-style: italic;
+    cursor: pointer; 
+}
+
+tr.lab:nth-child(even){
+    background: rgb(175, 175, 175);
+}
+
+tr.order:nth-child(even){
+    background: rgb(175, 175, 175);
+}
+
+input.rform-input{
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 100px;
+    color: black;
+    background-color: transparent;
+}
+
+input.rform-input:focus{
+    color: black;
+    background-color: rgb(230, 230, 230);
+    outline: none;
+    font-weight: bolder;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+tr.rform{
+   border: 1px solid black;
+}
+
+tr.rform-header{
+    border-bottom: 1px solid black;
+    background-color: rgb(175, 175, 175);
+}
+
+tr.rform:hover{
+    background-color: rgb(184, 183, 183);
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+.pagination-bttns{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: gray;
+
+}
+
+.pagination-bttns a{
+    padding: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    color: rgb(10, 105, 194);
+    cursor: pointer;
+}
+
+.pagination-bttns a:hover{
+    color:white;
+    background-color: rgb(10, 105, 194);
+}
+
+.pgninate-active a{
+    color: white;
+    background-color: rgb(10, 105, 194);
+}
+
+.block{
+    display: block;
+}
+
+
+.orders-pagination-bttns{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: gray;
+    
+}
+
+.orders-pagination-bttns a{
+    padding: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    color: rgb(6, 119, 15);
+    cursor: pointer;
+}
+
+.orders-prevBttn{
+    border-left: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.orders-pgninate-active{
+    color: white;
+}
+
+.orders-nextbtn{
+    border-right: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.orders-pagination-bttns a:hover{
+    color:white;
+    background-color: rgb(6, 119, 15);
+}
+
+.orders-pgninate-active a{
+    color: white;
+    background-color: rgb(6, 119, 15);
+}
+
+.filter-label{
+    position: absolute;
+}

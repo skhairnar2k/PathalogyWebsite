@@ -1,0 +1,85 @@
+.orderdetailsdiv{
+    display: block;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.divblock{
+    display: flex;
+}
+
+.orderdetail{
+    margin-left: 10px;
+}
+
+.center{
+    margin: auto;
+}
+
+.detailtable{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+
+.archive{
+    background-color: rgb(6, 119, 15);
+}
+
+.archive:hover{ 
+    background-color: rgb(0, 94, 16);
+    cursor: pointer;
+}
+
+.delete{
+    background-color: rgb(255, 13, 13);
+}
+
+.generate{
+    background-color: rgb(34, 120, 250);
+}
+
+.generate:hover{
+    background-color: rgb(17, 54, 110);
+}
+
+.delete:hover{
+    background-color: rgb(161, 1, 1);
+    cursor: pointer;
+}
+
+.size-btn{
+    display: flex;
+    background-color: rgb(6, 119, 15);
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.size-btn:hover{
+    color: black;
+    background-color:  rgb(0, 94, 16);
+}

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "siddhesh",
+    "password": "student",
+    "database": "projectlis",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "siddhesh",
+    "password": "student",
+    "database": "database_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "siddhesh",
+    "password": "student",
+    "database": "database_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
